@@ -4,7 +4,7 @@
 
 Olá, Essoaaaaa!
 
-Aqui é a Mona. Terminei de preparar o seu exercício. Espero que aproveite! 💚
+Terminei de preparar o seu exercício. Espero que aproveite! 💚
 
 Lembre-se, é no seu próprio ritmo, então fique à vontade para fazer uma pausa! ☕️
 
