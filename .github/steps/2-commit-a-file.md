@@ -24,7 +24,7 @@ Os passos a seguir irão guiá-lo(a) pelo processo de fazer um commit de uma alt
 4. Na área **Insira o conteúdo do arquivo aqui**, copie o seguinte conteúdo para o seu arquivo:
 
    ```
-   Welcome to my GitHub profile!
+   Boas-vindas ao meu perfil do GitHub!
    ```
 
    ![captura de tela para adicionar o arquivo profile.md](https://github.com/pro-taina-etec/start-here/blob/main/.github/images/add-profile-file.png?raw=true)

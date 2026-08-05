@@ -25,7 +25,7 @@ Para criar um pull request automaticamente, clique no botão **Comparar e criar 
 
 4. Clique em **Criar pull request**.
 
-5. Insira um título para o seu pull request. Por padrão, o título será sua mensagem de commit. Para este exercício, vamos editar o campo para dizer `Add my first file`.
+5. Insira um título para o seu pull request. Por padrão, o título será sua mensagem de commit. Para este exercício, vamos editar o campo para dizer `Adicionar meu primeiro arquivo`.
 
 6. O próximo campo ajuda a fornecer uma **descrição** das alterações que você fez. Por favor, insira uma breve descrição do que você realizou até agora. Como lembrete, você: criou um novo branch, criou um arquivo e fez um commit.
 
