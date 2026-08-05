@@ -8,7 +8,7 @@ Aqui é a Mona. Terminei de preparar o seu exercício. Espero que aproveite! �
 
 Lembre-se, é no seu próprio ritmo, então fique à vontade para fazer uma pausa! ☕️
 
-[![](https://img.shields.io/badge/Ir%20para%20o%20Exercício-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/pro-taina-etec/start-here/issues/2)
+[![](https://img.shields.io/badge/Ir%20para%20o%20Exerc%C3%ADcio-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/pro-taina-etec/start-here/issues/2)
 
 ---
 
