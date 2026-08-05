@@ -1,29 +1,29 @@
-## Review
+## Revisão
 
-_Congratulations, you've completed this Exercise and joined the world of developers!_
+_Parabéns, você concluiu este exercício e entrou no mundo dos desenvolvedores!_
 
-<img src=https://octodex.github.com/images/collabocats.jpg alt=celebrate width=300 align=right>
+<img src=https://octodex.github.com/images/collabocats.jpg alt=celebrar width=300 align=right>
 
-Here's a recap of your accomplishments:
+Aqui está um resumo das suas conquistas:
 
-- You learned about GitHub, repositories, branches, commits, and pull requests.
-- You created a branch, a commit, and a pull request.
-- You merged a pull request.
-- You made your first contribution! :tada:
+- Você aprendeu sobre o GitHub, repositórios, branches, commits e pull requests.
+- Você criou um branch, um commit e um pull request.
+- Você fez o merge de um pull request.
+- Você fez sua primeira contribuição! :tada:
 
-### What's next?
+### O que vem a seguir?
 
-If you'd like to make a profile README, use the quickstart instructions below or follow the instructions in the [Managing your profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) article.
+Se você quiser criar um README de perfil, use as instruções de início rápido abaixo ou siga as instruções no artigo [Gerenciando seu README de perfil](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
 
-1. Make a new public repository with a name that matches your GitHub username.
-2. Create a file named `README.md` in its root. The "root" means not inside any folder in your repository.
-3. Edit the contents of the `README.md` file.
-4. If you created a new branch for your file, open and merge a pull request on your branch.
-5. Lastly, we'd love to hear what you thought of this exercise [in our discussion board](https://github.com/orgs/skills/discussions/categories/introduction-to-github).
+1. Crie um novo repositório público com um nome que corresponda ao seu nome de usuário do GitHub.
+2. Crie um arquivo chamado `README.md` em sua raiz. A "raiz" significa que não está dentro de nenhuma pasta no seu repositório.
+3. Edite o conteúdo do arquivo `README.md`.
+4. Se você criou um novo branch para o seu arquivo, abra e faça o merge de um pull request no seu branch.
+5. Por último, adoraríamos ouvir sua opinião sobre este exercício [no nosso fórum de discussão](https://github.com/orgs/skills/discussions/categories/introduction-to-github).
 
-Check out these resources to learn more or get involved:
+Confira esses recursos para aprender mais ou se envolver:
 
-- Are you a student? Check out the [Student Developer Pack](https://education.github.com/pack).
-- [Take another GitHub Skills exercise](https://learn.github.com/skills).
-- [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
+- É estudante? Conheça o [Student Developer Pack](https://education.github.com/pack).
+- [Faça outro exercício do GitHub Skills](https://learn.github.com/skills).
+- [Leia a documentação de Introdução ao GitHub](https://docs.github.com/en/get-started).
+- Para encontrar projetos para contribuir, confira o [GitHub Explore](https://github.com/explore).

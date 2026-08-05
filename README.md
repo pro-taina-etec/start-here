@@ -1,16 +1,16 @@
-# Introduction to GitHub
+# Introdução ao GitHub
 
 <img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
 
-Hey pro-taina-etec!
+Olá, pro-taina-etec!
 
-Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
+Aqui é a Mona. Terminei de preparar seu exercício. Espero que aproveite! 💚
 
-Remember, it's self-paced so feel free to take a break! ☕️
+Lembre-se, é no seu próprio ritmo, então sinta-se à vontade para fazer uma pausa! ☕️
 
-[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/pro-taina-etec/start-here/issues/2)
+[![](https://img.shields.io/badge/Ir%20para%20o%20Exercício-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/pro-taina-etec/start-here/issues/2)
 
 ---
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+&copy; 2025 GitHub &bull; [Código de Conduta](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [Licença MIT](https://gh.io/mit)
 
