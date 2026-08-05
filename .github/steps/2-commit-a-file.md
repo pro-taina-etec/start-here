@@ -1,52 +1,52 @@
-## Step 2: Commit a file
+## Passo 2: Fazer um commit de um arquivo
 
-_You created a branch! :tada:_
+_Você criou um branch! :tada:_
 
-Creating a branch allows you to edit your project without changing the `main` branch. Now that you have a branch, it’s time to create a file and make your first commit!
+Criar um branch permite editar seu projeto sem alterar o branch `main`. Agora que você tem um branch, é hora de criar um arquivo e fazer seu primeiro commit!
 
-**What is a commit?**: A _[commit](https://docs.github.com/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)_ is a set of changes to the files and folders in your project. A commit exists in a branch. For more information, see "[About commits](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)".
+**O que é um commit?**: Um _[commit](https://docs.github.com/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)_ é um conjunto de alterações nos arquivos e pastas do seu projeto. Um commit existe em um branch. Para mais informações, veja "[Sobre commits](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)".
 
-### :keyboard: Activity: Your first commit
+### :keyboard: Atividade: Seu primeiro commit
 
-The following steps will guide you through the process of committing a change on GitHub. A commit records changes to the project such as adding/removing/renaming files and modifying file content. For this exercise, committing a change will be adding a new file to your new branch.
+Os passos a seguir irão guiá-lo(a) pelo processo de fazer um commit de uma alteração no GitHub. Um commit registra as mudanças no projeto, como adicionar/remover/renomear arquivos e modificar o conteúdo de arquivos. Para este exercício, fazer um commit de uma alteração significará adicionar um novo arquivo ao seu novo branch.
 
 > [!NOTE]
-> `.md` is a file extension that creates a Markdown file. You can learn more about Markdown by visiting "[Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)" in our docs or by taking the "[Communicating using Markdown](https://github.com/skills/communicate-using-markdown)" Skills Exercise.
+> `.md` é uma extensão de arquivo que cria um arquivo Markdown. Você pode aprender mais sobre Markdown visitando "[Sintaxe básica de escrita e formatação](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)" na nossa documentação ou fazendo o Exercício de Skills "[Comunicando usando Markdown](https://github.com/skills/communicate-using-markdown)".
 
-1. On the **< > Code** tab in the header menu of your repository, make sure you're on your new branch `my-first-branch`.
+1. Na aba **< > Código** no menu do cabeçalho do seu repositório, certifique-se de estar no seu novo branch `my-first-branch`.
 
-2. Select the **Add file** drop-down and click **Create new file**.
+2. Selecione o menu suspenso **Adicionar arquivo** e clique em **Criar novo arquivo**.
 
-   <img width="300" alt="screenshot of the create new file option" src="https://github.com/pro-taina-etec/start-here/blob/main/.github/images/create-new-file-option.png?raw=true">
+   <img width="300" alt="captura de tela da opção criar novo arquivo" src="https://github.com/pro-taina-etec/start-here/blob/main/.github/images/create-new-file-option.png?raw=true">
 
-3. In the **Name your file...** field, enter `PROFILE.md`.
+3. No campo **Nomeie seu arquivo...**, digite `PROFILE.md`.
 
-4. In the **Enter file contents here** area, copy the following content to your file:
+4. Na área **Insira o conteúdo do arquivo aqui**, copie o seguinte conteúdo para o seu arquivo:
 
    ```
    Welcome to my GitHub profile!
    ```
 
-   ![screenshot for adding the profile.md file](https://github.com/pro-taina-etec/start-here/blob/main/.github/images/add-profile-file.png?raw=true)
+   ![captura de tela para adicionar o arquivo profile.md](https://github.com/pro-taina-etec/start-here/blob/main/.github/images/add-profile-file.png?raw=true)
 
-5. Click **Commit changes...** in the upper right corner above the contents box. A dialog will appear.
+5. Clique em **Confirmar alterações...** no canto superior direito acima da caixa de conteúdo. Uma caixa de diálogo aparecerá.
 
-6. GitHub will suggest a commit message, but let's set one ourselves for practice. Enter `Add PROFILE.md` in the **Commit message** field.
+6. O GitHub irá sugerir uma mensagem de commit, mas vamos definir uma nós mesmos para praticar. Digite `Add PROFILE.md` no campo **Mensagem de commit**.
 
-   - A **commit message** and optional **extended description** help provide clarity for your changes. This is particularly useful when your commit involves several files.
+   - Uma **mensagem de commit** e uma **descrição estendida** opcional ajudam a dar clareza às suas alterações. Isso é particularmente útil quando o seu commit envolve vários arquivos.
 
-   <img width="400" alt="screenshot of adding a new file with a commit message" src="https://github.com/pro-taina-etec/start-here/blob/main/.github/images/commit-message-dialog.png?raw=true">
+   <img width="400" alt="captura de tela de adicionar um novo arquivo com uma mensagem de commit" src="https://github.com/pro-taina-etec/start-here/blob/main/.github/images/commit-message-dialog.png?raw=true">
 
-7. In this lesson, we'll ignore the other fields for now and click **Commit changes**.
+7. Nesta lição, vamos ignorar os outros campos por enquanto e clicar em **Confirmar alterações**.
 
-8. Now that you've changed a file, Mona should already be busy checking your work. Give her a moment and keep watch in the comments. You will see her respond with progress info and the next lesson.
+8. Agora que você alterou um arquivo, a Mona já deve estar verificando seu trabalho. Aguarde um momento e fique de olho nos comentários. Você verá ela responder com informações de progresso e a próxima lição.
 
 
 <details>
-<summary>Having trouble? 🤷</summary><br/>
+<summary>Com dificuldades? 🤷</summary><br/>
 
-If you don't get feedback, here are some things to check:
-- Make sure you are on the `my-first-branch` branch.
-- Ensure the `PROFILE.md` file is created and in the root folder.
+Se você não receber feedback, aqui estão algumas coisas a verificar:
+- Certifique-se de estar no branch `my-first-branch`.
+- Garanta que o arquivo `PROFILE.md` foi criado e está na pasta raiz.
 
 </details>
