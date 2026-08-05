@@ -1,4 +1,4 @@
-name: Step 3 # Open a pull request
+name: Passo 3 # Abrir um pull request
 
 # Checks if the learner completed tasks for step 3.
 # - Triggers when the user creates or edits the pull request.
@@ -28,11 +28,11 @@ jobs:
     if: |
       !github.event.repository.is_template &&
       github.head_ref == 'my-first-branch'
-    name: Find Exercise Issue
+    name: Encontrar issue do exercício
     uses: skills/exercise-toolkit/.github/workflows/find-exercise-issue.yml@v0.7.0
 
   check_step_work:
-    name: Check step work
+    name: Verificar trabalho do passo
     runs-on: ubuntu-latest
     needs: find_exercise
     env:
@@ -40,17 +40,17 @@ jobs:
       ISSUE_NUMBER: ${{ needs.find_exercise.outputs.issue-number }}
 
     steps:
-      - name: Checkout
+      - name: Baixar código
         uses: actions/checkout@v4
 
-      - name: Get response templates
+      - name: Obter modelos de resposta
         uses: actions/checkout@v4
         with:
           repository: skills/exercise-toolkit
           path: exercise-toolkit
           ref: v0.7.0
 
-      - name: Find last comment
+      - name: Encontrar último comentário
         id: find-last-comment
         uses: peter-evans/find-comment@v3
         with:
@@ -58,7 +58,7 @@ jobs:
           issue-number: ${{ env.ISSUE_NUMBER }}
           direction: last
 
-      - name: Update comment - checking work
+      - name: Atualizar comentário - verificando trabalho
         uses: GrantBirki/comment@v2.1.1
         with:
           repository: ${{ env.ISSUE_REPOSITORY }}
@@ -69,29 +69,29 @@ jobs:
 
       # START: Check practical exercise
 
-      - name: Check PR title for keyphrase
+      - name: Verificar título do PR pela frase-chave
         id: check-pr-title
         continue-on-error: true
         uses: skills/action-keyphrase-checker@v1
         with:
-          keyphrase: "Add my first file"
+          keyphrase: "Adicionar meu primeiro arquivo"
           text: ${{ github.event.pull_request.title }}
           case-sensitive: false
 
-      - name: Check PR description is non-empty
+      - name: Verificar se a descrição do PR não está vazia
         id: check-pr-description
         continue-on-error: true
         run: |
           if [ -n "$PR_BODY" ]; then
-            echo "STEP_MESSAGE=Pull request description" >> $GITHUB_OUTPUT
+            echo "STEP_MESSAGE=Descrição do pull request" >> $GITHUB_OUTPUT
           else
-            echo "STEP_MESSAGE=Pull request description is empty" >> $GITHUB_OUTPUT
+            echo "STEP_MESSAGE=Descrição do pull request está vazia" >> $GITHUB_OUTPUT
             exit 1
           fi
         env:
           PR_BODY: ${{ github.event.pull_request.body }}
 
-      - name: Update comment - step results
+      - name: Atualizar comentário - resultados do passo
         uses: GrantBirki/comment@v2.1.1
         with:
           repository: ${{ env.ISSUE_REPOSITORY }}
@@ -102,17 +102,17 @@ jobs:
           vars: |
             step_number: 3
             results_table:
-              - description: "Pull Request title matches"
+              - description: "Título do pull request corresponde"
                 passed: ${{ steps.check-pr-title.outcome == 'success' }}
               - description: ${{ steps.check-pr-description.outputs.STEP_MESSAGE }}
                 passed: ${{ steps.check-pr-description.outcome == 'success' }}
 
-      - name: Fail job if not all checks passed
+      - name: Falhar job se nem todas as verificações passaram
         if: contains(steps.*.outcome, 'failure')
         run: exit 1
 
   post_next_step_content:
-    name: Post next step content
+    name: Publicar conteúdo do próximo passo
     needs: [find_exercise, check_step_work]
     runs-on: ubuntu-latest
     env:
@@ -120,17 +120,17 @@ jobs:
       ISSUE_NUMBER: ${{ needs.find_exercise.outputs.issue-number }}
 
     steps:
-      - name: Checkout
+      - name: Baixar código
         uses: actions/checkout@v4
 
-      - name: Get response templates
+      - name: Obter modelos de resposta
         uses: actions/checkout@v4
         with:
           repository: skills/exercise-toolkit
           path: exercise-toolkit
           ref: v0.7.0
 
-      - name: Create comment - step finished
+      - name: Criar comentário - passo concluído
         uses: GrantBirki/comment@v2.1.1
         with:
           repository: ${{ env.ISSUE_REPOSITORY }}
@@ -139,21 +139,21 @@ jobs:
           vars: |
             next_step_number: 4
 
-      - name: Create comment - add step content
+      - name: Criar comentário - adicionar conteúdo do passo
         uses: GrantBirki/comment@v2.1.1
         with:
           repository: ${{ env.ISSUE_REPOSITORY }}
           issue-number: ${{ env.ISSUE_NUMBER }}
           file: ${{ env.STEP_4_FILE }}
 
-      - name: Create comment - watching for progress
+      - name: Criar comentário - acompanhando progresso
         uses: GrantBirki/comment@v2.1.1
         with:
           repository: ${{ env.ISSUE_REPOSITORY }}
           issue-number: ${{ env.ISSUE_NUMBER }}
           file: exercise-toolkit/markdown-templates/step-feedback/watching-for-progress.md
 
-      - name: Disable current workflow and enable next one
+      - name: Desabilitar workflow atual e habilitar o próximo
         run: |
           gh workflow disable "${{github.workflow}}"
           gh workflow enable "Step 4"

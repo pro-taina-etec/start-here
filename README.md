@@ -2,7 +2,7 @@
 
 <img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
 
-Olá, Essoaaaaa!
+Olá, pessoa estudante!
 
 Terminei de preparar o seu exercício. Espero que aproveite! 💚
 
